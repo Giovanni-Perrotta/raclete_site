@@ -31,7 +31,18 @@ header div {
     width: 400px;
     height: 500px;
     margin-left: 40px;
-   
+}
+.receitas{
+    border: 1px solid #000;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+    width: 910px;
+    height: auto;
+}
+.receitas p{
+    line-height: 25px;
 }
 #divMensagem{
     height: 20em;
@@ -124,7 +135,12 @@ section{
     align-items: center;
     justify-content: center;
 }
-
+.section_flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 img {
     width: 100%;
     height: 100%;
