@@ -183,6 +183,15 @@ footer {
     min-height: 12em;
     margin-top: 2em;
 }
+.politicas{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 60px;
+    margin-left: 60px;
+    line-height: 20px;
+}
 #container_footer{
     display: flex;
     justify-content: space-between;
